@@ -1,0 +1,11 @@
+1、用户登录
+http://192.168.60.25:7400/user/login?userName=xu111111@gmail.com&password=abcd@1234
+
+2、加载游戏区
+http://192.168.60.25:7400/conf/zones?appId=13
+
+3、点击选择游戏区后触发事件，加载用户抽奖次数
+http://192.168.60.25:7400/user/draw/count?tmpId=xxxx&appId=13&actId=xxxx
+
+4、抽奖次数大于0可以抽奖
+http://192.168.60.25:7400/user/draw?token=1utchxa5xy1ld9egkwmg6cflx&actId=1438054631629&jsonCallback=test

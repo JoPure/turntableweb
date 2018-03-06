@@ -1,0 +1,656 @@
+@import url("reset.css");
+@import url("normalize.css");
+
+* {
+    margin: 0 auto;
+}
+
+/*@font-face {*/
+/*font-family: 'tahoma';*/
+/*src: url('tahomabold.ttf');*/
+/*src: local('tahomabold.ttf');*/
+/*}*/
+body {
+    -webkit-backface-visibility: hidden;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fade {
+    /*filter:blur(3px);*/
+    /*-webkit-filter:blur(3px);*/
+}
+
+.head_container {
+    width: 100%;
+}
+
+.header {
+    background: url(../../trunTableImages/bannerbg.jpg) no-repeat center;
+    width: 100%;
+    max-width: 1920px;
+    height: 770px;
+    display: block;
+    display: block;
+}
+
+.backWeb {
+    position: relative;
+    top: 0;
+    left: 360px;
+    width: 136px;
+    height: 33px;
+    display: block;
+    background: url(../../trunTableImages/backweb.png) no-repeat center;
+}
+
+.backWeb:hover {
+    background: url(../../trunTableImages/backweb_hover.png) no-repeat center;
+}
+
+.header-banner {
+    background: url(../../trunTableImages/bannerbg2.jpg) center no-repeat;
+    height: 815px;
+    width: 100%;
+}
+
+.header--banner {
+    background: url(../../trunTableImages/bannerbg3.jpg) center no-repeat;
+    height: 778px;
+    width: 100%;
+}
+
+/*flag div*/
+.flag-main {
+    margin: 0 auto;
+    width: 1146px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: -180px;
+}
+
+.flag-turntable {
+    background: url(../../trunTableImages/flag.png) center no-repeat;
+    width: 1146px;
+    height: 1425px;
+}
+
+/*turntable*/
+.turntable {
+    position: relative;
+    top: 480px;
+    left: 300px;
+    width: 1146px;
+    height: 1425px;
+
+}
+
+/*turntable img and btn_go */
+.lotteryBg {
+    width: 603px;
+    height: 603px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    top: 0px;
+    margin-left: 15px;
+    /*margin: 0 auto;*/
+    background: url(../../trunTableImages/turntablebg.png) no-repeat center;
+}
+
+#goBtn {
+    width: 235px;
+    height: 235px;
+    z-index: 3;
+    margin-left: 31%;
+    margin-top: 30%;
+}
+
+#btn_run {
+    background: url(../../trunTableImages/btnbiankguang.png) center no-repeat;
+    width: 235px;
+    height: 235px;
+    outline: none;
+    border: none;
+    z-index: 5;
+    position: absolute;
+    top: 30%;
+    left: 185px;
+
+}
+
+.flag2 {
+    width: 836px;
+    height: 976px;
+    margin: 0 0 0 207px;
+    background: url(../../trunTableImages/flag2.png) center no-repeat;
+}
+
+.award-main {
+    width: 100%;
+    min-width: 1024px;
+    height: auto;
+}
+
+.award3 {
+    min-width: 1024px;
+    height: 901px;
+    background: url(../../trunTableImages/bannerbg4.jpg) center no-repeat;
+}
+
+/*-----scroll div-----*/
+.athree, .afive {
+    position: relative;
+    top: 60%;
+}
+
+.aseven {
+    position: relative;
+    top: 47%;
+}
+
+.aeight {
+    position: relative;
+    top: 66%;
+}
+
+.aten {
+    position: relative;
+    top: 32%;
+}
+
+/**-----------3-end------------*/
+.award4 {
+    min-width: 1024px;
+    height: 833px;
+    background: url(../../trunTableImages/banner4.jpg) center no-repeat;
+}
+
+.award5 {
+    min-width: 1024px;
+    height: 1351px;
+    background: url(../../trunTableImages/banner5.jpg) center no-repeat;
+}
+
+.award6 {
+    min-width: 1024px;
+    height: 957px;
+    background: url(../../trunTableImages/banner7.jpg) center no-repeat;
+}
+
+/*-----------------login*/
+.loginform {
+    width: 513px;
+    height: 308px;
+    background: url(../../trunTableImages/barbg.png) no-repeat center;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    z-index: 1003;
+    display: none;
+}
+
+.form {
+    position: relative;
+    top: 33px;
+    left: 230px;
+    text-align: center;
+    width: 320px;
+    height: 250px;
+}
+
+.uldiv {
+    width: 300px;
+    height: 30px;
+
+}
+
+.uldiv ul li {
+    list-style: none;
+    float: left;
+    margin: 0 5px;
+
+}
+
+.norli {
+    width: 119px;
+    height: 36px;
+    background: url(../../trunTableImages/login.png) no-repeat center;
+    display: block;
+}
+
+.norli:hover {
+    display: block;
+    cursor: pointer;
+    background: url(../../trunTableImages/loginactive.png) no-repeat center;
+}
+
+.fbli {
+    background: url(../../trunTableImages/FB.png) no-repeat center;
+    width: 119px;
+    height: 36px;
+    display: block;
+}
+
+.fbli:hover {
+    display: block;
+    background: url(../../trunTableImages/FBactive.png) no-repeat center;
+    cursor: pointer;
+
+}
+
+/**-----password username div*/
+.texNav {
+    position: relative;
+    top: 22px;
+    width: 254px;
+    height: 153px;
+    background: url(../../trunTableImages/loginbg.png) center no-repeat;
+}
+
+.text {
+    width: 250px;
+    height: 150px;
+}
+
+/*close button*/
+.close_ {
+    background: url(../../trunTableImages/close.png) no-repeat center;
+    width: 35px;
+    height: 31px;
+    float: right;
+    cursor: pointer;
+}
+
+/*------------download---------------------*/
+.download {
+    position: absolute;
+    top: 250px;
+    left: 28px;
+}
+
+.APKdown {
+    background: url(../../trunTableImages/download.png) no-repeat center;
+    width: 153px;
+    height: 38px;
+    display: block;
+}
+
+.APKdown:hover {
+    background: url(../../trunTableImages/download_hover.png) no-repeat center;
+    display: block;
+}
+
+.selectlist {
+    background: url(../../trunTableImages/loginbg.png) no-repeat center;
+    width: 254px;
+    height: 153px;
+    margin-top: 15px;
+    display: none;
+}
+
+.select--game {
+    position: relative;
+    top: 45px;
+
+}
+
+.name--word {
+    position: relative;
+    top: 38px;
+
+}
+
+.name--word input {
+    width: 222px;
+    border: 0;
+    line-height: 25px;
+    color: #444444;
+    text-indent: 2mm;
+    margin: 12px 0;
+    background: #ffffff;
+    font-size: 14px;
+    font-family: "tahoma,arial";
+}
+
+.select--game select {
+    width: 220px;
+    border: 0;
+    line-height: 30px;
+    color: #444444;
+    text-indent: 2mm;
+    margin: 16px 0;
+    display: none;
+    background: #ffffff;
+    font-family: "tahoma,arial";
+
+}
+
+/*-------------2 button-----------*/
+.confirm {
+    background: url(../../trunTableImages/sure.png) no-repeat center;
+    width: 110px;
+    height: 33px;
+    margin-top: 60px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.confirm:hover {
+    background: url(../../trunTableImages/sure_hover.png) no-repeat center;
+}
+
+.cancel {
+    width: 180px;
+    height: 30px;
+    margin: 30px;
+}
+
+.goplay {
+    background: url(../../trunTableImages/gogo.png) no-repeat center;
+    width: 82px;
+    height: 33px;
+    border: 0;
+}
+
+.back {
+    border: 0;
+    width: 82px;
+    height: 33px;
+    background: url(../../trunTableImages/return.png) center no-repeat;
+}
+
+.goplay:hover {
+    background: url(../../trunTableImages/gogo_hover.png) no-repeat center;
+}
+
+.return:hover {
+    background: url(../../trunTableImages/return_hover.png) no-repeat center;
+}
+
+/*-----show login message---------*/
+.showlogin {
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    width: 196px;
+    height: 317px;
+    display: none;
+    z-index: 3;
+    border-radius: 15px;
+    background: url(../../trunTableImages/playerbg.png) no-repeat center;
+}
+
+.showMessage {
+    margin-top: 50px;
+    width: 190px;
+    height: 180px;
+}
+
+.seemessage {
+    padding-top: 6px;
+    margin-bottom: 28px;
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+    font-family: "Tahoma,Arial";
+    text-align: center;
+    line-height: 20px;
+}
+
+.seemessage_e {
+    margin-top: 42px;
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+    font-family: "Tahoma,Arial";
+    text-align: center;
+}
+
+/*---init button*/
+#clear {
+    background-color: #f19300;
+    width: 60px;
+    height: 22px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 65px;
+    margin-top: -5px;
+}
+
+#clear:hover {
+    background-color: #f5ae00;
+    cursor: pointer;
+}
+
+/*show award message*/
+.alert-window {
+    position: fixed;
+    top: 150px;
+    left: 30%;
+    width: 513px;
+    height: 308px;
+    display: none;
+    z-index: 1005;
+    background: url(../../trunTableImages/alertwindow.png) center;
+}
+
+.show {
+    text-align: center;
+    height: 100px;
+    color: red;
+    font-size: 18px;
+    margin-top: 45px;
+    font-family: "Tahoma,Arial";
+}
+
+.shutdown {
+    position: absolute;
+    top: 0px;
+    left: 480px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.result {
+    width: 380px;
+    height: 103px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.img {
+    width: 100px;
+    height: 113px;
+    margin-left: 12px;
+}
+
+.p {
+    color: red;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: 40px;
+
+}
+
+.button {
+    cursor: pointer;
+    width: 45px;
+    line-height: 25px;
+    color: #ffffff;
+    background: #CC3300;
+    border: 0px;
+    border-radius: 5px;
+    font-family: tahoma;
+    float: right;
+    margin-top: -103px;
+    margin-right: 12px;
+}
+
+/*---zhezhao*/
+#fade {
+    height: 100%;
+    width: 100%;
+    z-index: 1001;
+    position: relative;
+    top: 0;
+    background: #444;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    display: none;
+}
+
+/*-nav scroll-*/
+#navnum {
+    position: fixed;
+    top: 40%;
+    left: 90%;
+    z-index: 1200;
+    cursor: pointer;
+    width: 53px;
+    height: 500px;
+}
+
+#navnum a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#navnum a {
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+
+/*nav scroll button*/
+.a1 {
+    background: url(../../trunTableImages/t1.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+
+.a2 {
+    background: url(../../trunTableImages/t2.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+
+.a3 {
+    background: url(../../trunTableImages/t3.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a4 {
+    background: url(../../trunTableImages/t4.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a5 {
+    background: url(../../trunTableImages/t5.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a6 {
+    background: url(../../trunTableImages/t6.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a7 {
+    background: url(../../trunTableImages/t7.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a8 {
+    background: url(../../trunTableImages/t8.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a9 {
+    background: url(../../trunTableImages/t9.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a10 {
+    background: url(../../trunTableImages/t10.png) center no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+
+}
+
+.a1:hover {
+    background: url(../../trunTableImages/hover1.png) center no-repeat;
+
+}
+
+.a2:hover {
+    background: url(../../trunTableImages/hover2.png) center no-repeat;
+
+}
+
+.a3:hover {
+    background: url(../../trunTableImages/hover3.png) center no-repeat;
+}
+
+.a4:hover {
+    background: url(../../trunTableImages/hover4.png) center no-repeat;
+}
+
+.a5:hover {
+    background: url(../../trunTableImages/hover5.png) center no-repeat;
+}
+
+.a6:hover {
+    background: url(../../trunTableImages/hover6.png) center no-repeat;
+}
+
+.a7:hover {
+    background: url(../../trunTableImages/hover7.png) center no-repeat;
+}
+
+.a8:hover {
+    background: url(../../trunTableImages/hover8.png) center no-repeat;
+}
+
+.a9:hover {
+    background: url(../../trunTableImages/hover9.png) center no-repeat;
+}
+
+.a10:hover {
+    background: url(../../trunTableImages/hover10.png) center no-repeat;
+}

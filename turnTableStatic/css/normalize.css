@@ -1,0 +1,29 @@
+body {
+  font-size: 12px;
+  font-family: "微软雅黑",Tahoma,sans-serif;
+  color: #777;
+  word-break: break-all;
+}
+/*
+ * 消除图片与父容器底部间的空隙，参考： http://jsfiddle.net/gZQRJ/165/
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/* 阻止长按菜单 */
+
+a, img {
+    -webkit-touch-callout: none;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+ul, ol, li {
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
